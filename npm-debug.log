@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.1.43
+3 info using node@v0.8.3
+4 verbose config file /Users/thomasknoll/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose read json /Users/thomasknoll/projects/theme-expanse/package.json
+8 error install Couldn't read dependencies
+9 error Error: no version
+9 error     at validVersion (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:516:32)
+9 error     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:285:23)
+9 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:115:33
+9 error     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:48:11)
+9 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:237:40
+9 error     at fs.readFile (fs.js:176:14)
+9 error     at fs.close (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:94:5)
+9 error     at Object.oncomplete (fs.js:297:15)
+10 error If you need help, you may report this log at:
+10 error     <http://github.com/isaacs/npm/issues>
+10 error or email it to:
+10 error     <npm-@googlegroups.com>
+11 error System Darwin 14.0.0
+12 error command "node" "/usr/local/bin/npm" "install"
+13 error cwd /Users/thomasknoll/projects/theme-expanse
+14 error node -v v0.8.3
+15 error npm -v 1.1.43
+16 verbose exit [ 1, true ]
